@@ -1,0 +1,23 @@
+.category_tree-parent,
+.category_tree-element {
+    list-style: none;
+}
+
+.category_tree-parent li span {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.category_tree-element li {
+    margin-bottom: 5px;
+}
+
+.category_tree-element li:last-child {
+    margin-bottom: 15px;
+}
+
+.category_tree-element .category_tree-tags {
+    font-weight: normal;
+    text-decoration: none;
+    color: gray;
+}
